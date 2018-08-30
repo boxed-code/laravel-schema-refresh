@@ -12,9 +12,9 @@ The `php artisan db:refresh` command will:
 - copy the data from the old database to new
 
 ## Caveats
-If you make breaking changes to your schema, for instance add a new column to a table without a default value, the refresh will fail. 
+If you make breaking changes to your schema, for instance add a new column to a table without a default value, the refresh will fail for the obvious reasons.
 
-## Intallation
+## Installation
 Install via composer:
 
     composer install boxed-code/laravel-schema-refresh 
