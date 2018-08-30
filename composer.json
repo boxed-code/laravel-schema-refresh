@@ -1,0 +1,32 @@
+{
+    "name": "boxed-code/laravel-schema-refresh",
+    "description": "Refresh your DB schema (by re-running your migrations) without loosing data",
+    "require": {
+        "laravel/framework": "^5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oliver Green",
+            "email": "oliver@boxedcode.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BoxedCode\\Laravel\\SchemaRefresh\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BoxedCode\\Laravel\\SchemaRefresh\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BoxedCode\\Laravel\\SchemaRefresh\\RefreshSchemaServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
