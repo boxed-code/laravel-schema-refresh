@@ -17,7 +17,7 @@ If you make breaking changes to your schema, for instance add a new column to a 
 ## Installation
 Install via composer:
 
-    composer install boxed-code/laravel-schema-refresh 
+    composer require boxed-code/laravel-schema-refresh 
  
 ## Misc
 Pull requests welcome 😀. License MIT.
